@@ -1,0 +1,280 @@
+@font-face {
+    font-family: 'milkshakeregular';
+    src: url('font/milkshake-webfont.woff2') format('woff2'),
+         url('font/milkshake-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('font/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('font/kaushanscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '2-Questa_Regular';
+    src: url('font/2-Questa_Regular-webfont.woff2') format('woff2'),
+         url('font/2-Questa_Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*****BASE*****/
+
+Body {
+    font-family: 'Lora', serif;
+    background-color: #4B3A51;
+}
+
+p {
+    color: #4d4c4c;
+}
+
+#about {
+    height: 600px;
+}
+
+#skills{
+    height: 600px;
+}
+
+#work {
+    height: 600px;
+}
+
+#contact {
+    height: 400px;
+}
+
+/*****GRID*****/
+
+.fullwidth {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width; 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/*****Header*****/
+
+header {
+    height: 40px;   
+    padding: 0px;
+    margin: 0;
+}
+
+#header-image {
+    background: url('../img/darwin-kong-312035%20edited.png');
+    background-size: cover;
+    height: 650px;
+    padding: 0px;
+    margin: 0px;
+}
+
+header h1 {
+    font-family: 'milkshakeregular', serif;
+    padding: 0 20px;
+    margin: 5px 0 0 0;
+    font-size: 40px;
+    color: floralwhite;
+    float: left;
+    
+}
+
+nav {
+    float: right;
+    width= 320px;
+    padding: 10px 0 0 750px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: floralwhite;
+    padding: 20px;
+    font-weight: 700;
+}
+
+#header-image h2 {
+    width: 1200px;
+    clear: both;
+    font-family: 'kaushan_scriptregular', serif;
+    font-size: 50px;
+    line-height: 80px;
+    color: #763262;
+    padding: 540px 10px;
+}
+
+/*****ABOUT*****/
+
+#about {
+    background-color: floralwhite;
+}
+
+#about .full-width {
+    padding: 50px 0;
+}
+
+#about h2 {
+    font-family: '2-Questa_Regular', serif;
+    font-size: 36px;
+    text-align: center;
+    color: #CA7508;
+    padding-left: 80px;
+
+}
+
+#about p {
+    font-size: 21px;
+    color: #4d4c4c;
+    line-height: 25px;
+    padding-right: 100px;
+    padding-left: 220px;
+    width: 600px;
+    text-align: justify;
+}
+
+
+#about img {
+    padding-bottom: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+/*****SKILLS*****/
+
+#skills {
+    background-color: floralwhite;
+    text-align: center;
+}
+
+#skills .full-width {
+    padding: 30px 100px;
+    border-top: 10px dotted #ECD7B8;
+}
+
+#skills .third-width {
+    width: 400px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+#skills h2 {
+    font-family: '2-Questa_Regular', serif;
+    font-size: 36px;
+    color: #763262;
+    margin: 0 auto;
+}
+
+#skills p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #262a2b;
+    padding: 0 35px;
+}
+
+#skills img {
+    padding-right: 0;
+}
+
+/*****WORK*****/
+
+
+#work {
+    text-align: center;
+    background-color: #ECD7B8;
+}
+
+#work .full-width {
+    padding: 10px 140px;
+}
+
+#work .third-width {
+    width: 400px;
+    float: left;s
+    padding-left: 20px;
+    padding-right: 10px;
+    
+}
+
+#work h2 {
+    font-family: '2-Questa_Regular', serif;
+    font-size: 36px;
+    color: #CA7508;
+}
+
+#work p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #262a2b;
+    padding: 0 35px;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+/*****CONTACT*****/
+
+#contact {
+   background-color: floralwhite;
+}
+
+#contact .full-width{
+    padding: 50px 0;
+}
+
+#contact h2 {
+    font-family: '2-Questa_Regular', serif;
+    font-size: 36px;
+    color: #763262;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact-info h3, #email-header, #contact h2, #contact a {
+    padding-left: 150px;
+}
+
+#contact a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #4d4c4c;
+    font-size: 20px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#social-media ul {
+    padding: 50px 0 0 500px;
+    
+}
+
+
+
